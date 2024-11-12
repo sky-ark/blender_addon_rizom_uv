@@ -39,7 +39,7 @@ class dks_ruv_addon_prefs(bpy.types.AddonPreferences):
         option_ruv_exe : bpy.props.StringProperty(
                 name="RizomUV Executable",
                 subtype='FILE_PATH',
-                default=r"C:\Program Files\Rizom Lab\RizomUV VS RS 2018.0\rizomuv.exe",
+                default=r"C:\Program Files\Rizom Lab\RizomUV 2024.1\rizomuv.exe",
         )     
         option_export_folder : bpy.props.StringProperty(
                 name="Export Folder Name",
